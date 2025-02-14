@@ -1,0 +1,47 @@
+/** Global Styles **/
+* {
+    background-color: rgb(190, 145, 86)
+}
+
+h1 {
+    font-size: 60px;
+}
+
+/**Title And Banner Styles**/
+.titleBanner {
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', sans-serif, Verdana;
+}
+
+.titleBanner img {
+    width: 40%;
+    height: auto;
+    max-height: 600px;
+}
+
+.titleBanner p {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+/** Ingredients and Step-by-Step Styles **/
+
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    gap: 1px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+.box p, h2, ul, ol, li, h3{
+    background-color: white;
+}
