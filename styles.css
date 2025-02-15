@@ -1,20 +1,27 @@
 /** Global Styles **/
 * {
     background-color: rgb(190, 145, 86);
-    text-align: center;
 }
 
 h1 {
     font-size: 60px;
 }
-/** Index.html Design **/
 
+/** Index.html Design **/
+.title{
+    text-align: center;
+}
 .cont {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 15px;
     max-width: 900px;
     margin: 0 auto; 
+    text-align: center;
+}
+.cont a{
+    text-decoration: none;
+    color: black;
 }
 
 .boxlink img {
